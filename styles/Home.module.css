@@ -1,0 +1,24 @@
+.h1 {
+    font-size: 2rem;
+    color: #B97550;
+}
+
+.h2 {
+    font-size: 1.5rem;
+    background-color: #fff;
+}
+  
+.p {
+    font-size: 1.5rem;
+}
+
+.divV1 {
+    margin: 30px;
+    align-items: center;
+    display: grid;
+}
+
+.divV2 {
+    margin-bottom: 20px;
+    display: flex;
+}
