@@ -56,7 +56,7 @@ const bookM = () => {
             position = {'relative'}
         >
             
-            <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyDmGVGawF_swxkP1HFvHDpBys9QwXs6iRo"></script>
+            <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=API_KEY"></script>
             
             <Header 
                 setType = {setType}
