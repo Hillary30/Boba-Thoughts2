@@ -3,7 +3,7 @@ import { sql_query } from "../../lib/db";
 const handler = async (_, res) => {
     try {
         const results = await sql_query(
-            'SELECT * FROM drink ORDER BY rating DESC'
+            'SELECT * FROM drink ORDER BY rating ASC'
         );
 
         return res.json(results);

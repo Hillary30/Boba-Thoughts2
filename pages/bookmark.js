@@ -6,6 +6,7 @@ import Link from "next/link";
 
 
 const Bookmark = () => {
+    
     const [Map, setMap] = useState();
     mapboxgl.accessToken = 'pk.eyJ1IjoiaGlsbGFyeTMwIiwiYSI6ImNsYThjeGt3bjAyaXozcXBrMms5ZDJzdXMifQ.mJBKVGjeRbBjcE6dgK18Ow';
 
@@ -31,21 +32,19 @@ const Bookmark = () => {
                 <Link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.css' rel='stylesheet'/>
                 <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.js'></script>
             </Head>
-            <div className={styles.sidebar}>
-                <div className={styles.heading}>
-                    <h1 className={styles.h1}>Your locations</h1>
+            <div className={styles.map__container}>
+                <div className={styles.sidebar}>
+                    <div className={styles.heading}>
+                        <h1 className={styles.h1}>Your locations</h1>
+                    </div>
+                    <div id='listings' className='listings'>
+                    </div>
                 </div>
-                <div id='listings' className='listings'>
-
+                <div id="map" className={styles.map}>
                 </div>
             </div>
-            <div id="map" className={styles.map}>
-            </div>
-
             
-
-
-
+        
         </div>
     );
 }

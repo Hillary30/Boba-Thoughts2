@@ -9,7 +9,7 @@ export default function List(props) {
             drinks.map(
                 (item)=> <>
                     <div className={styles.divV2}>
-                        <h2 className={styles.h2}>{item.drinkName}</h2>
+                        <h2 className={styles.h2}>{item.drinkName}</h2> 
                         <p className={styles.p}>{item.rating}</p>
                     </div>
                 </>

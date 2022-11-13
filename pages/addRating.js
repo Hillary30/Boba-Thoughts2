@@ -1,3 +1,6 @@
+import Link from "next/link";
+
+
 const addRating = () => {
     return ( 
         <div className="rate__container">
@@ -27,12 +30,16 @@ const addRating = () => {
                         <input type="radio" id="rating" name="rate" value="5"/>
                         <label for="rating">5</label>
                     </div>
-                    <div className="rate-button">
-                        <button id="rate_btn">Add Rating</button>
+                    <div className="button-box">
+                        <div className="rate-button">
+                            <Link href="/rateList"><button id="rate_btn">My List</button></Link>
+                        </div>
+                        <div className="rate-button">
+                            <button id="rate_btn">Add Rating</button>
+                        </div>
                     </div>
                 </form>
             </div>
-            
         </div>
     );
 }

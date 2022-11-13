@@ -29,7 +29,7 @@ export default function Home() {
                 <div className="services__card">
                   <h2>Ready to go?</h2>
                   <p>Bookmark places you want to go next!</p>
-                  <Link href="/bookmark"><button>My Bookmarks</button></Link>
+                  <Link href="/bookM"><button>My Bookmarks</button></Link>
                 </div>
               </div>
         </div>

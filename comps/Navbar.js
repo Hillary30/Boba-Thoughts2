@@ -20,7 +20,7 @@ const Navbar = () => {
                         <Link href="/addRating" className="navbar__links">My Ratings</Link>
                     </li>
                     <li className="navbar__item">
-                        <Link href="/bookmark" className="navbar__links">Bookmarks</Link>
+                        <Link href="/bookM" className="navbar__links">Bookmarks</Link>
                     </li>
                     <li className="navbar__btn">
                         <Link href="/signUp" className="button">Sign Up</Link>
