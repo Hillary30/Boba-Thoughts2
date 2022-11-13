@@ -34,7 +34,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 ## New Changes
-- Added a map using Google Maps Api, filtering system to see the ratings of places
+- Added a map using Google Maps Api and filtering system to see the ratings of places
 - Added list of places using user location and filtered ratings
 - List will change if user moves the map
 - Utilized Chakra UI to build interactive features
